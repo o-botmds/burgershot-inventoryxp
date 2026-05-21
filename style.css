@@ -1,0 +1,28 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #8B0000;
+  color: #fff;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #FFD700;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: #8B0000;
+  font-weight: 600;
+}
+
+button {
+  background: #FFD700;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+}

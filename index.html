@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>BurgerShot Controle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>BurgerShot 🍔</h1>
+    <ul>
+      <li><a href="index.html">Login</a></li>
+      <li><a href="employee.html">Funcionários</a></li>
+      <li><a href="admin.html">Admin</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="inventory.html">Estoque</a></li>
+    </ul>
+  </nav>
+
+  <section id="login">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+  </section>
+
+  <section id="register">
+    <h2>Cadastro</h2>
+    <input type="text" id="name" placeholder="Nome">
+    <input type="email" id="regEmail" placeholder="Email">
+    <input type="password" id="regPassword" placeholder="Senha">
+    <button onclick="register()">Cadastrar</button>
+  </section>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
