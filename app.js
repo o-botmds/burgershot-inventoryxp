@@ -1,7 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
-const supabaseUrl = "https://SEU-PROJETO.supabase.co";   // Project URL
-const supabaseKey = "SEU-CHAVE-ANON";                   // anon public key
+const supabaseUrl = "https://bshwcraabbogpvhzlwst.supabase.co";   // Project URL
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJzaHdjcmFhYmJvZ3B2aHpsd3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkzOTIyMzcsImV4cCI6MjA5NDk2ODIzN30.GtYqNGjMY_pvoXx4Wt_rkmovHO1KJxG0qutTNdM_yfE";                   // anon public key
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Cadastro
